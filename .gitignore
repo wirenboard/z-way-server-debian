@@ -1,0 +1,12 @@
+*.deb
+*/debian/files
+*.build
+*.changes
+*.dsc
+*/core.*
+*.tar.gz
+*.tgz
+*.debhelper.log
+*.debhelper
+debian/*.substvars
+debian/z-way-server
