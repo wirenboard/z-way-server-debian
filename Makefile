@@ -1,5 +1,5 @@
 PN := z-way-server
-PV := 2.0.1-rc33
+PV := 2.2.5
 TARBALL := $(PN)-Contactless-Contactless-v$(PV).tgz
 
 .PHONY: all clean
