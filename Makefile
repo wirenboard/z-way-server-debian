@@ -1,6 +1,6 @@
 PN := z-way-server
-PV := 2.0.2-rc1
-TARBALL := $(PN)-Debian-v$(PV).tgz
+PV := 2.0.1-rc33
+TARBALL := $(PN)-Contactless-Contactless-v$(PV).tgz
 
 .PHONY: all clean
 

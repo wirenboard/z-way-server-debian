@@ -2,11 +2,11 @@ Source: z-way-server
 Section: network
 Priority: optional
 Maintainer: Alexey Ignatov <lexszero@gmail.com>
-Build-Depends: debhelper (>= 9), wget
+Build-Depends: debhelper (>= 9), wget, libarchive13
 Standards-Version: 3.9.5
 Homepage: http://razberry.z-wave.me/z-way-server/
 
 Package: z-way-server
-Architecture: amd64
+Architecture: armel
 Depends: ${shlibs:Depends}, ${misc:Depends}, sharutils, tzdata, gawk, libavahi-compat-libdnssd1, libarchive13, libv8-3.14.5
 Description: Z-Way server
